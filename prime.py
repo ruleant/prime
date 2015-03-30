@@ -1,8 +1,12 @@
 import math
 
 primes = []
+checked = 0
 
 def check_prime(number):
+    global checked
+    checked += 1
+
     if number <= 1:
         return False
 
@@ -56,3 +60,4 @@ def predict_primes():
 #loop_numbers()
 predict_primes()
 print primes
+print "%d primes found, checked %d numbers " % (len(primes), checked)
