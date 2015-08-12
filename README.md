@@ -1,6 +1,6 @@
 # Prime
 
-Prime number generator
+Prime number generator (experimental)
 
 License
 -------
